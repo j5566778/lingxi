@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing:border-box;
+	text-decoration: none;
+	font-family: Helvetica;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+/*header*/
+.web-pl-header{
+	width: 100%;
+	height:0.8rem;
+	background:#FCFCFC; 
+	border-bottom: 1px solid #EEEEEE;
+	float: left;
+}
+.web-pl-header-banner{
+	width:6.76rem;
+	height: 100%;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.web-pl-header-banner-left{
+	width: 33.3333333%;
+	float: left;
+	height: 100%;
+	/*background: yellow;*/
+}
+.web-pl-header-banner-right a{
+	text-align: right;
+	line-height: 0.8rem;
+	display: block;
+	color: #191919;
+	font-size: 16px;
+	font-family: "苹方常规";
+}
+.banner-right-img{
+	width: 0.49rem;
+	height: 0.49rem;
+	float:right; 
+	margin-top: 10px;
+}
+.banner-right-img img{
+	width: 100%;
+	height: 100%;
+}
+.web-pl-header-banner-zj{
+	width: 33.3333333%;
+	float: left;
+	height: 100%;
+	/*background: red;*/
+}
+.web-pl-header-banner-right{
+	width: 33.3333333%;
+	float: left;
+	height: 100%;
+	/*background: blue;*/
+}
+.web-pl-header-banner-zj a{
+	font-size: 18px;
+	color: #2C2C2C;
+	font-family: "苹方粗体";
+	line-height:0.8rem;
+	text-align: center;
+	display: block;
+	font-weight: 5px;
+	font-weight: bold;
+}
+.web-kb{
+	width: 100%;
+	height: 0.5rem;
+	float: left;
+}
+/*======================================*/
+/*======================================*/
+/*======================================*/
+		/*banner*/
+.web-banner{
+	width: 100%;
+	height: auto;
+	/*background: yellow;*/
+}
+.web-ban{
+	width: 6.7rem;
+	height: auto;
+	margin: 0 auto;
+}
+.ban-1{
+	width: 0.3rem;
+	float: left;
+	height: 3.2rem;
+	/*background: green;*/
+}
+.web-ban ul{
+	width: 100%;
+	height: auto;
+}
+.web-ban ul li{
+	width: 3.2rem;
+	height: 3.2rem;
+	float: left;
+	/*background: yellow;*/
+}
+.web-ban ul li img{
+	width: 100%;
+	height: 100%;
+}
+.ban-2{
+	width: 100%;
+	height: 0.3rem;
+	float: left;
+	/*background: yellow;*/
+}
+/*======================================*/
+/*======================================*/
+/*======================================*/
+			/*footer*/
+.footer{
+	width: 100%;
+	height: 0.67rem;
+	float: left;
+	background: white;
+}
+

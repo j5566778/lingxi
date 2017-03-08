@@ -1,0 +1,55 @@
+.sp{
+	width: 100%;
+	height: 100%;
+	background-color: #eeedf3;
+}
+html,body{
+	height: 100%;
+}
+.sp-1 img{
+	display: block;
+	width: 100%;
+	font-size: 0px;
+}
+.sp-2{
+	line-height: 0px;
+	width: 5.00rem;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	top: 1.5rem;
+}
+.swiper-pagination{
+	bottom: 0.58rem;
+}
+.swiper-pagination-bullet{
+	width: 0.2rem;
+	height: 0.2rem;
+	border: 1px solid #282828;
+	background-color: transparent;
+}
+.swiper-pagination-bullet-active{
+	background-color: #282828;
+}
+.sp-h{
+	width: 100%;
+	height:0.6rem;
+	position: absolute;
+	bottom: 1.82rem;
+	text-align: center;
+	left: 0px;
+	line-height: 0.6rem;
+}
+.sp-h span{
+	color: #141318;
+	font-weight: 100;
+	display: block;
+	height: 100%;
+	font-size: 0.6rem;
+}
+@media screen and (max-width: 320px){
+	.sp-1 .sp-2{
+		width: 4rem;
+	}
+}
